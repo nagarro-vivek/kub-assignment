@@ -21,4 +21,4 @@ spec:
         - containerPort: 27017
         envFrom:
         - secretRef:
-          name: mongodb-secrets
+            name: mongodb-secrets

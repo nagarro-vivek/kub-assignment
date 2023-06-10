@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: node-config
 data:
-  MONGODB_URI: mongodb+srv://mrvivektak:vivek@123456@cluster0.wgw3wzk.mongodb.net/?retryWrites=true&w=majority
+  MONGODB_URI: mongodb+srv://mrvivektak:vivek@123456@cluster0.dt6ujum.mongodb.net/?retryWrites=true&w=majority
