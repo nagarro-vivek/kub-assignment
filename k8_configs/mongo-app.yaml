@@ -22,3 +22,10 @@ spec:
         envFrom:
         - secretRef:
             name: mongodb-secrets
+        volumeMounts:
+        - name: mongodb-persistent-storage
+          mountPath: /data/db
+      volumes:
+        - name: mongodb-persistent-storage
+          persistentVolumeClaim:
+            claimName: mongodb-pvc
