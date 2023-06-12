@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mongo
-        image: mongo:6.0
+        image: mongo
         ports:
         - containerPort: 27017
         envFrom:
@@ -28,4 +28,4 @@ spec:
       volumes:
         - name: mongodb-persistent-storage
           persistentVolumeClaim:
-            claimName: mongodb-pvc
+            claimName: mongodb-claim
