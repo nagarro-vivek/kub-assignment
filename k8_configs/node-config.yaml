@@ -4,8 +4,8 @@ metadata:
   name: node-config
 data:
   MONGODB_URI: mongo-service
-  PORT: 3010
-  MONGODB_PORT: 27017
+  PORT: "3010"
+  MONGODB_PORT: "27017"
   MONGODB_DB_NAME: kubernetes-db
 
   
